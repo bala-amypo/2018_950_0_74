@@ -28,7 +28,15 @@ public class StudentEntity {
         return email;
     }
     public void setEmail(String email){
-        this 
+        this.email = email;
+    }
+    public StudentEntity(Integer id,String name,String email){
+        this.id = id;
+        this.name = name;
+        this.email = email;
+    }
+    public StudentEntity(){
+        
     }
 }
 
